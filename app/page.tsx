@@ -41,12 +41,9 @@ export default function Portfolio() {
 
               <p>
                 My expertise lies in building{" "}
-                <Link
-                  href="/projects"
-                  className="underline decoration-2 underline-offset-2 hover:text-gray-900"
-                >
+                <span className="underline decoration-2 underline-offset-2">
                   SaaS platforms
-                </Link>{" "}
+                </span>{" "}
                 ERP systems and Web3 Platforms that not only meet business needs
                 but also exceed user expectations. Every line of code I write is
                 designed to make your digital product faster, more efficient,
