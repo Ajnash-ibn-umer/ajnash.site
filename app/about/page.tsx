@@ -20,9 +20,9 @@ export default function About() {
         {/* Content */}
         <div className="space-y-8 text-gray-700 text-lg leading-relaxed">
           <p>
-            I'm a passionate Full-Stack Developer and SaaS and MVP Expert with
-            over 5 years of experience in software development. My journey in
-            technology has been driven by a love for creating solutions that
+            I'm an AI Driven Software Engineer and SaaS Developer with
+            over 6 years of programming experience. My journey in
+            technology has been driven by a love for creating intelligent, scalable solutions that
             make a real difference in people's lives and businesses.
           </p>
 
@@ -36,12 +36,12 @@ export default function About() {
           </p>
 
           <p>
-            Currently, I work as a Software Developer at Softbuilders Software
-            Design, where I architect backend systems using technologies like
-            NestJS, Node.js, GraphQL, and AWS. My projects often involve
-            multi-tenancy architecture, event-driven microservices, and
+            Currently, I work as a Senior Software Developer at Softbuilders Software
+            Design, where I architect backend systems and microservices using technologies like
+            NestJS, Node.js, GraphQL, and AWS. My projects heavily involve
+            multi-tenancy architecture, event-driven integrations, and
             performance-oriented solutions that solve real-world business
-            challenges.
+            challenges while leveraging AI agentic tools.
           </p>
 
           <h2 className="text-2xl font-serif italic text-gray-800 mt-12 mb-6">
@@ -51,59 +51,74 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="font-semibold text-gray-800 mb-3">
-                Backend Technologies
+                Languages
               </h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Node.js , Express.js and Nest.js</li>
-                <li>• Gloang & Gin</li>
-                <li>• Python & FastApi</li>
-                <li>• MongoDB, PostgreSQL, Redis</li>
-                <li>• Database Design & Optimization</li>
-                <li>• GraphQL & REST APIs</li>
-                <li>• Serverless & Multi-tenancy Systems</li>
-                <li>• Micro services & Distributed systems</li>
-
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-gray-800 mb-3">
-                Frontend Technologies
-              </h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• React.js & Next.js</li>
-                <li>• HTML & CSS </li>
                 <li>• TypeScript & JavaScript</li>
-                <li>• Responsive Design</li>
-                <li>• Modern CSS & Tailwind</li>
-
+                <li>• Python</li>
+                <li>• Golang</li>
+                <li>• GraphQL & SQL</li>
+                <li>• HTML & CSS</li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold text-gray-800 mb-3">
-                Cloud & DevOps
+                Backend & Cloud
               </h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• AWS & GCP</li>
+                <li>• Node.js, Express.js, Nest.js</li>
+                <li>• Python FastAPI & Gin</li>
+                <li>• MongoDB, PostgreSQL, Redis</li>
+                <li>• AWS (Lambda, EC2, S3)</li>
                 <li>• Docker & Kubernetes</li>
-                <li>• CI/CD Pipelines</li>
-                <li>• Git , Github & Bitbucket</li>
-                <li>• Monitoring & Logging</li>
+                <li>• Microservices & Serverless</li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold text-gray-800 mb-3">
-                SaaS & Business Systems
+                AI & Web3
               </h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Custom ERP Development</li>
+                <li>• AI Agentic Development</li>
+                <li>• LLM Integrations</li>
+                <li>• Web3.js & Ethers.js</li>
+                <li>• Custom AI Tools (Opencode, Claude, Antigravity)</li>
+                <li>• Blockchain Basics</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-gray-800 mb-3">
+                Architecture & Practices
+              </h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Multi-tenancy Architecture</li>
+                <li>• Event-driven Systems</li>
                 <li>• MVP SaaS Development</li>
-                <li>• System Integration</li>
-                <li>• AI Agent Integration</li>
+                <li>• CI/CD Pipelines</li>
                 <li>• Performance Optimization</li>
               </ul>
+            </div>
+          </div>
+
+          <h2 className="text-2xl font-serif italic text-gray-800 mt-12 mb-6">
+            Technical Insights
+          </h2>
+          
+          <div className="space-y-6">
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+              <h3 className="font-semibold text-gray-800 mb-2">Why I Use GraphQL Over REST</h3>
+              <p className="text-gray-600 mb-3 text-sm">
+                While both have their strengths, I prefer GraphQL for reducing data over-fetching, allowing custom frontend queries, and providing strong type definitions. However, it requires careful handling of caching and initial configurations.
+              </p>
+            </div>
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+              <h3 className="font-semibold text-gray-800 mb-2">Breaking Free from Social Media Addiction</h3>
+              <p className="text-gray-600 text-sm">
+                I strongly believe in protecting focus time. Shared practical tips to boost productivity: turning off non-essential notifications, setting app limits, and creating a distraction-free home screen.
+              </p>
             </div>
           </div>
 

@@ -35,11 +35,10 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: "Ajnash - Software Developer",
+  title: "Ajnash - AI Driven Software Engineer & SaaS Developer",
   icons: {
     icon: "/favicon.ico", 
   },
   description:
-    "Software developer working at the intersection of technology, design & mental health",
-  generator: "v0.dev",
+    "AI Driven Software Engineer and SaaS Developer with 6+ years of expertise in building scalable microservices and AI-integrated web applications.",
 };

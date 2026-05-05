@@ -14,29 +14,29 @@ export default function Portfolio() {
                 Hi, I'm Ajnash Ibn Ummer K
               </h1>
               <p className="text-gray-500 italic text-lg">
-                /fullstack developer/
+                /ai driven software engineer & saas developer/
               </p>
             </div>
 
             {/* Main Description */}
             <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
               <p className="italic">
-                I'm a{" "}
+                I'm an{" "}
                 <span className="underline decoration-2 underline-offset-2 ">
-                  Full-Stack Developer
+                  AI Driven Software Engineer
                 </span>{" "}
                 and{" "}
                 <span className="underline decoration-2 underline-offset-2">
-                  SaaS Specialist
+                  SaaS Developer
                 </span>{" "}
-                with over 5 years of web development experience, crafting
-                dynamic web solutions that blend innovation and functionality.
+                with over 6 years of programming experience, crafting
+                scalable web solutions that blend innovation and performance.
               </p>
 
               <p className="font-mono">
                 With a passion for clean, scalable code, I thrive on
                 transforming complex challenges into streamlined,
-                high-performing applications.
+                high-performing applications using modern architectures.
               </p>
 
               <p>
@@ -44,7 +44,7 @@ export default function Portfolio() {
                 <span className="underline decoration-2 underline-offset-2">
                   SaaS platforms
                 </span>{" "}
-                ERP systems and Web3 Platforms that not only meet business needs
+                , microservices, and AI Agentic integrations that not only meet business needs
                 but also exceed user expectations. Every line of code I write is
                 designed to make your digital product faster, more efficient,
                 and user-friendly.
@@ -79,7 +79,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl text-gray-800">Ajnash K</h3>
-                  <p className="text-gray-600 text-sm">Fullstack Developer</p>
+                  <p className="text-gray-600 text-sm">AI Software Engineer</p>
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>📧 ajnash.k02@gmail.com</p>
@@ -215,18 +215,17 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
-                  <span className="text-xl">🎨</span>
+                  <span className="text-xl">🤖</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-2">
-                    Frontend Development
+                    AI Agentic Development
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Crafting visually stunning and responsive interfaces for
-                    seamless user experiences.
+                    Integrating AI agents and LLMs to create intelligent, automated workflows and tools.
                   </p>
                 </div>
               </div>
@@ -245,14 +244,14 @@ export default function Portfolio() {
                 About
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 href="/projects"
                 className="hover:text-gray-900 transition-colors"
               >
                 Projects
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link
                 href="/resume"

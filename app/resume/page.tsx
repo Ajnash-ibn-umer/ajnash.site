@@ -17,7 +17,7 @@ export default function Resume() {
               <h1 className="text-4xl md:text-5xl font-serif italic text-gray-800 leading-tight">
                 Resume
               </h1>
-              <p className="text-gray-600 mt-4">Full-Stack Developer</p>
+              <p className="text-gray-600 mt-4">AI Driven Software Engineer & SaaS Developer</p>
             </div>
             <Link href={"/resume.pdf"}>
               <button className="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
@@ -48,11 +48,10 @@ export default function Resume() {
           </h2>
           <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
             <p className="text-gray-700 leading-relaxed">
-              Experienced Full-Stack Developer with 5+ years of expertise in
+              AI Driven Software Engineer and SaaS Developer with 6+ years of expertise in
               designing and implementing scalable web solutions. Proven track
-              record in building SaaS platforms, enterprise systems, and
-              cloud-based applications. Passionate about clean code, user
-              experience, and delivering high-performance solutions that drive
+              record in building SaaS platforms, microservices architectures, and
+              AI-integrated applications. Passionate about clean code, robust backend architectures, and delivering high-performance solutions that drive
               business growth.
             </p>
           </div>
@@ -81,20 +80,16 @@ export default function Resume() {
               </div>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>
-                  • Working on scalable backend systems using NestJS, GraphQL,
-                  and AWS Lambda
+                  • Optimized data migration performance by implementing parallel execution algorithms, reducing processing time for 1M records by 80%.
                 </li>
                 <li>
-                  • Architecting microservices infrastructure to optimize
-                  performance and cost
+                  • Architected and designed scalable backend infrastructure and microservices for an enterprise-level SaaS platform.
                 </li>
                 <li>
-                  • Enhancing application security and scalability using
-                  event-driven patterns
+                  • Developed and deployed a custom RabbitMQ client package for NestJS to enable efficient multi-queue processing and RPC communication.
                 </li>
                 <li>
-                  • Collaborating with cross-functional teams to deliver
-                  business-focused features
+                  • Led cross-functional team and successfully delivered 2+ production-ready cryptocurrency and digital wallet applications.
                 </li>
               </ul>
             </div>
@@ -104,7 +99,7 @@ export default function Resume() {
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
-                    Backend Engineer
+                    Backend Developer (Team Lead)
                   </h3>
                   <p className="text-gray-600">Nexteons LLP, India</p>
                 </div>
@@ -114,19 +109,16 @@ export default function Resume() {
               </div>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>
-                  • Designed multi-tenancy architecture reducing infra cost by
-                  30%
+                  • Reduced infra costs by 30% through implementing a scalable multi-tenancy architecture.
                 </li>
                 <li>
-                  • Deployed serverless ERP systems using AWS Lambda and S3
+                  • Achieved a 50% server cost reduction by deploying serverless architecture with AWS Lambda.
                 </li>
                 <li>
-                  • Improved system performance by 35% with event-driven
-                  microservices
+                  • Improved system performance by 35% with event-driven microservices.
                 </li>
                 <li>
-                  • Built scalable SaaS-level applications with NestJS and
-                  MongoDB
+                  • Achieved a 30% reduction in API latency by implementing batched database operations.
                 </li>
               </ul>
             </div>
@@ -136,7 +128,7 @@ export default function Resume() {
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
-                    Full Stack Developer
+                    Full Stack Developer (Team Lead)
                   </h3>
                   <p className="text-gray-600">Credot LLP, India</p>
                 </div>
@@ -146,13 +138,17 @@ export default function Resume() {
               </div>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>
-                  • Led a team of 4 devs and 1 designer to build full-stack apps
+                  • Improved API performance by implementing GraphQL with a recursive function, reducing data retrieval latency by 45%.
                 </li>
                 <li>
-                  • Reduced API latency by 45% using optimized GraphQL queries
+                  • Enabled real-time data transfer using WebSockets and Firebase, reducing synchronization latency by 40% for 10,000+ users.
                 </li>
-                <li>• Built real-time features with WebSockets and Firebase</li>
-                <li>• Improved code quality and mentored junior developers</li>
+                <li>
+                  • Reduced data importing time by 40% by developing a bulk-importing script for MongoDB.
+                </li>
+                <li>
+                  • Led a team of 4 devs and 1 designer; conducted code reviews resulting in a 30% improvement in code quality.
+                </li>
               </ul>
             </div>
 
@@ -169,13 +165,14 @@ export default function Resume() {
               </div>
               <ul className="text-gray-700 space-y-2 text-sm">
                 <li>
-                  • Delivered 10+ websites using HTML, CSS, JS, and JS
-                  frameworks
+                  • Developed 10+ websites with HTML, CSS, JavaScript, and JS frameworks.
                 </li>
                 <li>
-                  • Deployed projects with responsive UI and custom features
+                  • Deployed projects with responsive UI and custom features.
                 </li>
-                <li>• Handled client requirements, hosting, and maintenance</li>
+                <li>
+                  • Handled client requirements, hosting, and maintenance.
+                </li>
               </ul>
             </div>
           </div>
@@ -272,6 +269,32 @@ export default function Resume() {
           </div>
         </section>
 
+        {/* Projects & Open Source */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-serif italic text-gray-800 mb-6">
+            Projects & Open Source
+          </h2>
+          <div className="space-y-6">
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+              <h3 className="font-semibold text-gray-800">VEGAMJS (Lightweight NodeJS Backend Framework)</h3>
+              <p className="text-gray-600 text-sm mt-2 mb-3">
+                A lightweight Node.js backend framework developed with TypeScript for scalable web applications. Includes built-in body parser and supports Express-like middleware.
+              </p>
+              <div className="flex gap-4 text-sm">
+                <a href="https://www.npmjs.com/package/vegamis" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NPM Package</a>
+                <a href="https://github.com/Ajnash-ibn-umer/vegamjs#readme" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Source Code</a>
+              </div>
+            </div>
+
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+              <h3 className="font-semibold text-gray-800">OXTEL.IN (Hostel Booking Service)</h3>
+              <p className="text-gray-600 text-sm mt-2">
+                Implemented a modern UI leveraging Tailwind CSS and ShadCN components. Used Repository Design Pattern for database-agnostic development.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Education */}
         <section className="mb-12">
           <h2 className="text-2xl font-serif italic text-gray-800 mb-6">
@@ -296,39 +319,37 @@ export default function Resume() {
         </section>
 
         {/* Certifications */}
-        {/* <section>
+        <section>
           <h2 className="text-2xl font-serif italic text-gray-800 mb-6">
             Certifications
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
               <h3 className="font-semibold text-gray-800 text-sm">
-                AWS Certified Solutions Architect
+                Blockchain Basics
               </h3>
-              <p className="text-gray-500 text-xs">
-                Amazon Web Services • 2023
+              <p className="text-gray-500 text-xs mt-1">
+                Cyfrin Updraft • BBCC-RGF0GMB4RDG0
               </p>
             </div>
             <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
               <h3 className="font-semibold text-gray-800 text-sm">
-                Google Cloud Professional Developer
+                Fundamentals of MCP
               </h3>
-              <p className="text-gray-500 text-xs">Google Cloud • 2022</p>
+              <p className="text-gray-500 text-xs mt-1">
+                Hugging Face
+              </p>
             </div>
             <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
               <h3 className="font-semibold text-gray-800 text-sm">
-                MongoDB Certified Developer
+                ICT Accessibility and Standards
               </h3>
-              <p className="text-gray-500 text-xs">MongoDB Inc. • 2021</p>
-            </div>
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
-              <h3 className="font-semibold text-gray-800 text-sm">
-                React Developer Certification
-              </h3>
-              <p className="text-gray-500 text-xs">Meta • 2021</p>
+              <p className="text-gray-500 text-xs mt-1">
+                CDAC/ICTASCB5/000009
+              </p>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </div>
   );
