@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="flex  gap-5">
           {/* Contact Form */}
 
-          {/* <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200">
+          {/* <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
             <h2 className="font-serif text-2xl text-gray-800 mb-6">Send a Message</h2>
             <form className="space-y-6">
               <div>
@@ -86,7 +86,7 @@ export default function Contact() {
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h2 className="font-serif text-2xl text-gray-800 mb-6">
                 Get in Touch
               </h2>
@@ -188,7 +188,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-serif text-xl text-gray-800 mb-4">
                 Response Time
               </h3>
@@ -202,7 +202,7 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-serif text-xl text-gray-800 mb-4">
                 What to Include
               </h3>

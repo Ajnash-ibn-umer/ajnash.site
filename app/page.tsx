@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#f5f1eb] px-6 py-12 md:px-12 lg:px-24">
+    <div className="min-h-screen bg-[#f5f1eb] px-6 py-12 pb-32 md:px-12 lg:px-24">
       <div className="mx-auto max-w-6xl">
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -70,7 +70,7 @@ export default function Portfolio() {
 
           {/* Right Column - Profile Info */}
           <div className="flex justify-center lg:justify-end">
-            <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-8 shadow-sm border border-gray-200 max-w-sm">
+            <div className="bg-white/30 backdrop-blur-md rounded-2xl p-8 shadow-sm border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] max-w-sm">
               <div className="text-center space-y-4">
                 <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto flex items-center justify-center">
                   {/* <span className="text-2xl">👨‍💻</span>
@@ -83,8 +83,7 @@ export default function Portfolio() {
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>📧 ajnash.k02@gmail.com</p>
-                  {/* <p>📱 +971 567328853</p> */}
-                  <p>🎂 June 15, 2000</p>
+                  <p>📱 +971 506832998</p>
                   <p>📍 Dubai, UAE</p>
                 </div>
                 <Link
@@ -164,7 +163,7 @@ export default function Portfolio() {
             What I'm Doing
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
                   <span className="text-xl">⚡</span>
@@ -181,7 +180,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                   <span className="text-xl">☁️</span>
@@ -198,7 +197,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
                   <span className="text-xl">🏗️</span>
@@ -215,7 +214,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-md transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                   <span className="text-xl">🤖</span>
@@ -234,8 +233,8 @@ export default function Portfolio() {
         </div>
 
         {/* Navigation */}
-        <nav className="mt-16 pt-8 border-t border-gray-300">
-          <ul className="flex flex-wrap gap-8 text-gray-700">
+        <nav className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-white/40 backdrop-blur-md border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.1)] rounded-full px-6 py-3 w-[90%] max-w-max transition-all duration-300 hover:bg-white/50 hover:shadow-[0_8px_30px_rgb(0,0,0,0.15)]">
+          <ul className="flex flex-wrap items-center justify-center gap-6 md:gap-8 text-gray-800 font-medium text-sm md:text-base">
             <li>
               <Link
                 href="/about"
@@ -270,7 +269,7 @@ export default function Portfolio() {
             </li>
             <li>
               <Link
-                href="https://blog.ajnash.site"
+                href="https://ajnashdev.hashnode.dev/"
                 className="hover:text-blue-900 text-blue-900 underline border-2 border-blue-900 transition-colors"
               >
                 Blogs

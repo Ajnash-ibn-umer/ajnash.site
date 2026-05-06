@@ -22,7 +22,7 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Vegam-js */}
-          <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col">
+          <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-lg transition-shadow duration-300 flex flex-col">
             <h2 className="font-serif text-2xl text-gray-800 mb-2">Vegam-js</h2>
             <p className="text-sm text-blue-600 mb-4 font-mono">v1.0.13 • Lightweight NodeJS Backend Framework</p>
             <p className="text-gray-700 leading-relaxed mb-6 flex-grow">
@@ -39,14 +39,14 @@ export default function Projects() {
                   Source Code
                 </a>
               </div>
-              <div className="flex items-center gap-2 text-xs text-gray-500 font-mono bg-white px-3 py-2 rounded-md border border-gray-200">
+              <div className="flex items-center gap-2 text-xs text-gray-500 font-mono bg-white px-3 py-2 rounded-md border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
                 <code>npm i vegamjs</code>
               </div>
             </div>
           </div>
 
           {/* OXTEL.IN */}
-          <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col">
+          <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-lg transition-shadow duration-300 flex flex-col">
             <h2 className="font-serif text-2xl text-gray-800 mb-2">OXTEL.IN</h2>
             <p className="text-sm text-blue-600 mb-4 font-mono">Hostel Booking Service</p>
             <p className="text-gray-700 leading-relaxed mb-6 flex-grow">

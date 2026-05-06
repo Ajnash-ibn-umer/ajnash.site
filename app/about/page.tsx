@@ -108,13 +108,13 @@ export default function About() {
           </h2>
           
           <div className="space-y-6">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-2">Why I Use GraphQL Over REST</h3>
               <p className="text-gray-600 mb-3 text-sm">
                 While both have their strengths, I prefer GraphQL for reducing data over-fetching, allowing custom frontend queries, and providing strong type definitions. However, it requires careful handling of caching and initial configurations.
               </p>
             </div>
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-2">Breaking Free from Social Media Addiction</h3>
               <p className="text-gray-600 text-sm">
                 I strongly believe in protecting focus time. Shared practical tips to boost productivity: turning off non-essential notifications, setting app limits, and creating a distraction-free home screen.
@@ -142,7 +142,7 @@ export default function About() {
             my expertise.
           </p>
 
-          <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 border border-gray-200 mt-12">
+          <div className="bg-white/30 backdrop-blur-md rounded-xl p-8 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] mt-12">
             <h3 className="font-serif text-xl text-gray-800 mb-4">
               Let's Work Together
             </h3>

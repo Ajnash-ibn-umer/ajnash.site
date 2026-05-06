@@ -28,7 +28,7 @@ export default function Resume() {
         </div>
 
         {/* Contact Info */}
-        <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200 mb-8">
+        <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] mb-8">
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
               <p className="text-gray-600">📧 ajnash.k02@gmail.com</p>
@@ -46,7 +46,7 @@ export default function Resume() {
           <h2 className="text-2xl font-serif italic text-gray-800 mb-4">
             Professional Summary
           </h2>
-          <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+          <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
             <p className="text-gray-700 leading-relaxed">
               AI Driven Software Engineer and SaaS Developer with 6+ years of expertise in
               designing and implementing scalable web solutions. Proven track
@@ -64,7 +64,7 @@ export default function Resume() {
           </h2>
           <div className="space-y-6">
             {/* Softbuilders Software Design */}
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
@@ -95,7 +95,7 @@ export default function Resume() {
             </div>
 
             {/* Nexteons LLP */}
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
@@ -124,7 +124,7 @@ export default function Resume() {
             </div>
 
             {/* Credot LLP */}
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
@@ -153,7 +153,7 @@ export default function Resume() {
             </div>
 
             {/* Freelance */}
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-semibold text-gray-800">
@@ -184,7 +184,7 @@ export default function Resume() {
             Technical Skills
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {[
@@ -208,7 +208,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {[
@@ -233,7 +233,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-4">Database</h3>
               <div className="flex flex-wrap gap-2">
                 {["PostgreSQL", "MySQL", "MongoDB", "Redis", "InfluxDB"].map(
@@ -249,7 +249,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 mb-4">
                 Cloud & DevOps
               </h3>
@@ -275,7 +275,7 @@ export default function Resume() {
             Projects & Open Source
           </h2>
           <div className="space-y-6">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800">VEGAMJS (Lightweight NodeJS Backend Framework)</h3>
               <p className="text-gray-600 text-sm mt-2 mb-3">
                 A lightweight Node.js backend framework developed with TypeScript for scalable web applications. Includes built-in body parser and supports Express-like middleware.
@@ -286,7 +286,7 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800">OXTEL.IN (Hostel Booking Service)</h3>
               <p className="text-gray-600 text-sm mt-2">
                 Implemented a modern UI leveraging Tailwind CSS and ShadCN components. Used Repository Design Pattern for database-agnostic development.
@@ -300,7 +300,7 @@ export default function Resume() {
           <h2 className="text-2xl font-serif italic text-gray-800 mb-6">
             Education
           </h2>
-          <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-gray-200">
+          <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="font-semibold text-gray-800">
@@ -324,7 +324,7 @@ export default function Resume() {
             Certifications
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-4 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 text-sm">
                 Blockchain Basics
               </h3>
@@ -332,7 +332,7 @@ export default function Resume() {
                 Cyfrin Updraft • BBCC-RGF0GMB4RDG0
               </p>
             </div>
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-4 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 text-sm">
                 Fundamentals of MCP
               </h3>
@@ -340,7 +340,7 @@ export default function Resume() {
                 Hugging Face
               </p>
             </div>
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-4 border border-gray-200">
+            <div className="bg-white/30 backdrop-blur-md rounded-xl p-4 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
               <h3 className="font-semibold text-gray-800 text-sm">
                 ICT Accessibility and Standards
               </h3>
