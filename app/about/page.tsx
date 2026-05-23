@@ -54,6 +54,7 @@ export default function About() {
                 Languages
               </h3>
               <ul className="space-y-2 text-gray-600">
+                <li>• Java (8 & 17+)</li>
                 <li>• TypeScript & JavaScript</li>
                 <li>• Python</li>
                 <li>• Golang</li>
@@ -67,6 +68,7 @@ export default function About() {
                 Backend & Cloud
               </h3>
               <ul className="space-y-2 text-gray-600">
+                <li>• Spring, Spring Boot, Maven & Gradle</li>
                 <li>• Node.js, Express.js, Nest.js</li>
                 <li>• Python FastAPI & Gin</li>
                 <li>• MongoDB, PostgreSQL, Redis</li>

@@ -49,7 +49,7 @@ export default function Resume() {
           <div className="bg-white/30 backdrop-blur-md rounded-xl p-6 border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
             <p className="text-gray-700 leading-relaxed">
               AI Driven Software Engineer and SaaS Developer with 6+ years of expertise in
-              designing and implementing scalable web solutions. Proven track
+              designing and implementing scalable web solutions, specializing in the Java (Spring Boot) and NodeJS backend ecosystems. Proven track
               record in building SaaS platforms, microservices architectures, and
               AI-integrated applications. Passionate about clean code, robust backend architectures, and delivering high-performance solutions that drive
               business growth.
@@ -212,6 +212,9 @@ export default function Resume() {
               <h3 className="font-semibold text-gray-800 mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {[
+                  "Java (8, 17+)",
+                  "Spring Boot",
+                  "Spring",
                   "Node.js",
                   "Python",
                   "Golang",
@@ -222,6 +225,8 @@ export default function Resume() {
                   "Express.js",
                   "FastAPI",
                   "AWS Lambda",
+                  "Maven",
+                  "Gradle",
                 ].map((skill) => (
                   <span
                     key={skill}

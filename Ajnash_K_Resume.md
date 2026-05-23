@@ -4,12 +4,12 @@ Dubai, United Arab Emirates | +971 506832998 | ajnash.k02@gmail.com
 [LinkedIn](https://linkedin.com/in/ajnash-ibn-umer) | [GitHub](https://github.com/Ajnash-ibn-umer)
 
 ## PROFILE
-Software Developer with 6+ years of programming experience and 4+ years of industrial experience in full-stack and backend Engineering, and cloud solutions. Expertise in building scalable applications using microservices and serverless architecture. Proven ability to optimize systems and lead teams, delivering impactful projects like ERP systems and SaaS Applications.
+Software Developer with 6+ years of programming experience and 4+ years of industrial experience in backend, full-stack engineering, and cloud solutions, specializing in Java (Spring Boot) and JavaScript/TypeScript (NodeJS) ecosystems. Expertise in building scalable applications using microservices and serverless architecture. Proven ability to optimize systems and lead teams, delivering impactful projects like ERP systems and SaaS Applications.
 
 ## SKILLS
-* **Languages:** TypeScript, JavaScript, Python, Golang, GraphQL, CSS, HTML, SQL
+* **Languages:** Java (8, 17+), TypeScript, JavaScript, Python, Golang, GraphQL, CSS, HTML, SQL
 * **Databases & Cloud:** MongoDB, PostgreSQL, Redis, AWS, Cloud Computing, CI/CD, Unit Testing, Lambda, OOP, Docker, RabbitMQ, Kafka, MQTT, AI agentic development tools (opencode, claude code, antigravity)
-* **Frameworks & Tools:** Node.js, Express.js, Nest.js, FastAPI, React.js, Next.js, Prisma, Git, FastMCP, Gin
+* **Frameworks & Tools:** Spring, Spring Boot, Node.js, Express.js, Nest.js, FastAPI, React.js, Next.js, Prisma, Git, Maven, Gradle, FastMCP, Gin
 * **Architectures:** Multi-tenancy Architecture, Serverless Architecture, Microservices, Distributed Systems, Event-driven architecture, MCP Integrations, web3 Integrations (web3.js, ethers.js), cloud integrations, AI integration, Multi-agent system development
 
 ## PROFESSIONAL EXPERIENCE

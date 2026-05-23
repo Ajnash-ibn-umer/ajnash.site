@@ -10,7 +10,7 @@
 
 ## 🚀 About Me
 
-I am a passionate Software Development Engineer with over 5 years of self-driven learning experience. My expertise spans backend engineering, full-stack development, and AI integration. I specialize in building scalable microservices, serverless architectures, and AI-driven applications.
+I am a passionate Software Development Engineer with over 5 years of self-driven learning experience. My expertise spans backend engineering (specializing in Java and Node.js ecosystems), full-stack development, and AI integration. I specialize in building scalable microservices, serverless architectures, and AI-driven applications.
 
 **Key Focus Areas:**
 - Backend Engineering
@@ -24,9 +24,9 @@ I am a passionate Software Development Engineer with over 5 years of self-driven
 
 | Category       | Technologies                                                                 |
 |----------------|------------------------------------------------------------------------------|
-| **Languages**  | Node.js, Python, Golang, TypeScript, JavaScript                             |
+| **Languages**  | Java (8, 17+), TypeScript, JavaScript, Python, Golang                         |
 | **Frontend**   | React                                                                       |
-| **Backend**    | Node.js, Python, Golang, Microservices, Serverless                          |
+| **Backend**    | Spring, Spring Boot, Node.js, Python, Golang, Maven, Gradle, Microservices, Serverless |
 | **Databases**  | MongoDB                                                                     |
 | **Cloud**      | Amazon Web Services (AWS)                                                   |
 | **Architecture**| Multi-tenancy, SaaS Development, Serverless Computing Services             |
